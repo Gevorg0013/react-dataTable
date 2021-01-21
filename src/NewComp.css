@@ -1,0 +1,70 @@
+
+
+/*.imgBlock:hover{*/
+/*    visibility: visible;*/
+/*}*/
+
+
+.imgBlock {
+    border: 2px solid;
+    height: 200px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#photo {
+    height: 40px;
+    width: 100px;
+}
+
+
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
+}
+
+
+.d1:hover>.inactive
+{
+    display:block;
+}
+.
+#button{
+    left: 400px;
+    top: 500px;
+}
+
+.dddd{
+}
+
+.None{
+    display: none;
+}
+.activeD{
+    display: block;
+}

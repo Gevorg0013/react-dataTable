@@ -1,0 +1,193 @@
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+/**************************/
+.column{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid;
+}
+
+
+.divList{
+    margin-top: 30px;
+}
+
+
+.td1{
+    border: 1px solid;
+    width: 100px;
+
+
+}
+.btn{
+    background: #2196F3;
+    color: white;
+    border: 1px solid grey;
+    cursor: revert;
+    padding: 3px;
+}
+
+
+
+.dd2{
+    height: 15px;
+    width:110px;
+    display: flex;
+    margin-left: 100px;
+    display: block;
+;
+}
+
+
+
+.divClass{
+border: 1px solid;
+    height: 306px;
+    width: 500px;
+    margin-left: 180px;
+    margin-left: 367.8px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+}
+.inputDiv > input{
+    width: 40%;
+    padding: 10px 15px;
+    border: 1px solid silver;
+}
+
+.iconImg{
+ height: 15px;
+    cursor: pointer;
+
+}
+.inline-icons{
+    display: flex;
+    width: 300px;
+    height: 35px;
+}
+.icon-box{
+    width: 20px;
+    height: 25px;
+    border: 1px solid;
+}
+.icon-box1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+}
+
+.activeIcon{
+    display: block;
+}
+.inactiveIcon{
+    display: none;
+}
+
+.icon-box img{
+    width: 110%;
+}
+
+.icon-box:hover >.inactiveIcon{
+    display: block;
+}
+
+
+
+
+
+
+
+#SortBySurNames{
+    margin-left: 90px;
+}
+#SortByAge{
+    margin-left: 90px;
+
+}
+
+
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    color: red;
+}
+
+.close:hover {}
+
+.d1{
+    border: 1px solid;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+}
+
+#closeAge{
+    cursor: pointer;
+    margin-left: 100px;
+}
+#closeSurName{
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+.filterComp{
+    border: 1px solid;
+    height: 363px;
+    width: 30%;
+    margin-left: 54.5%;
+}
+
+.closeActive{
+    display: none;
+}
+.closeInActive{
+    display: block;
+}
+
+#Span{
+    cursor: pointer;
+}
