@@ -1,32 +1,27 @@
 
-
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-}
 
+}
+th{
+    background-color: silver;
+
+}
 td, th {
-    border: 1px solid #dddddd;
+    border: 2px solid ;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-
-
-
-
-
-
-
+/*tr:nth-child(even) {*/
+/*    background-color: #dddddd;*/
+/*}*/
 
 
 /**************************/
-.column{
+.column {
     float: left;
     width: 100%;
     padding: 10px;
@@ -36,18 +31,19 @@ tr:nth-child(even) {
 }
 
 
-.divList{
+.divList {
     margin-top: 30px;
 }
 
 
-.td1{
+.td1 {
     border: 1px solid;
     width: 100px;
 
 
 }
-.btn{
+
+.btn {
     background: #2196F3;
     color: white;
     border: 1px solid grey;
@@ -56,20 +52,17 @@ tr:nth-child(even) {
 }
 
 
-
-.dd2{
+.dd2 {
     height: 15px;
-    width:110px;
+    width: 110px;
     display: flex;
     margin-left: 100px;
-    display: block;
-;
+    display: block;;
 }
 
 
-
-.divClass{
-border: 1px solid;
+.divClass {
+    border: 1px solid;
     height: 306px;
     width: 500px;
     margin-left: 180px;
@@ -78,72 +71,84 @@ border: 1px solid;
 }
 
 
-
-
-
-
-
-
-.inputDiv{
+.inputDiv {
     display: flex;
     justify-content: center;
 }
-.inputDiv > input{
+
+.inputDiv > input {
     width: 40%;
     padding: 10px 15px;
     border: 1px solid silver;
 }
 
-.iconImg{
- height: 15px;
+.iconImg {
+    height: 15px;
     cursor: pointer;
 
 }
-.inline-icons{
+
+.inline-icons {
     display: flex;
     width: 300px;
     height: 35px;
 }
-.icon-box{
+
+.icon-box {
     width: 20px;
-    height: 25px;
-    border: 1px solid;
+    height: 22px;
 }
-.icon-box1{
+.icon-box img{
+    width: 100%;
+}
+
+.reset-box{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+.reset-box img{
+    width: 100%;
+}
+
+
+.table-column{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icon-box1 {
     width: 40px;
     height: 40px;
     border: 2px solid;
 }
 
-.activeIcon{
+.activeIcon {
     display: block;
 }
-.inactiveIcon{
+
+.inactiveIcon {
     display: none;
 }
 
-.icon-box img{
+.icon-box img {
     width: 110%;
 }
 
-.icon-box:hover >.inactiveIcon{
+.icon-box:hover > .inactiveIcon {
     display: block;
 }
 
 
+/*#SortBySurNames {*/
+/*    margin-left: 90px;*/
+/*}*/
 
+/*#SortByAge {*/
+/*    margin-left: 90px;*/
 
-
-
-
-#SortBySurNames{
-    margin-left: 90px;
-}
-#SortByAge{
-    margin-left: 90px;
-
-}
-
+/*}*/
 
 
 .close {
@@ -154,9 +159,10 @@ border: 1px solid;
     color: red;
 }
 
-.close:hover {}
+.close:hover {
+}
 
-.d1{
+.d1 {
     border: 1px solid;
     width: 30%;
     height: 20%;
@@ -164,30 +170,102 @@ border: 1px solid;
     top: 70%;
 }
 
-#closeAge{
+#closeAge {
     cursor: pointer;
     margin-left: 100px;
 }
-#closeSurName{
+
+#closeSurName {
     cursor: pointer;
     margin-left: 100px;
 }
 
 
-.filterComp{
+.filterComp {
     border: 1px solid;
     height: 363px;
     width: 30%;
     margin-left: 54.5%;
 }
 
-.closeActive{
+.closeActive {
     display: none;
 }
-.closeInActive{
+.closeInActive {
     display: block;
 }
-
-#Span{
+#Span {
     cursor: pointer;
 }
+.filter-block{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.dd{
+}
+.dd1{
+    position: absolute;
+    bottom: 45.6%;
+    margin-left: 19%;
+    border: 1px solid;
+    width: 39.5%;
+
+
+;
+}
+
+.insertElButton{
+    background-color: #2196F3;
+    color: white;
+    margin-left: 224%;
+}
+
+.lastRow{
+    border: 0px solid;
+    background-color: white;
+    margin-top: 10%;
+}
+#input{
+    width: 100%;
+    height: 40px;
+}
+
+#span{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
