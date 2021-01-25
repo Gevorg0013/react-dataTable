@@ -13,13 +13,16 @@ const App = () => {
   ];
 
   // eslint-disable-next-line no-unused-vars
-  const [users, setUsers] = useState(usersObj);
+  // const [users, setUsers] = useState(usersObj);
   // eslint-disable-next-line no-unused-vars
-  const [users1, setUsers1] = useState(users);
-  let [filteredNames, setFilteredNames] = useState(users);
+  // const [users1, setUsers1] = useState(usersObj);
 
-  const filterUser = (event) => {
-    let usersAsString = users.map((user) => {
+
+  let [filteredNames, setFilteredNames] = useState(usersObj);
+
+  
+  const helperFilterUseAsString=()=>{
+    let usersAsString = users1.map((user) => {
       return user.name
         .toLowerCase()
         .concat(" ")
@@ -27,8 +30,11 @@ const App = () => {
         .concat(" ")
         .concat(user.age);
     });
-    // let val = event.target.value;
+  }
 
+
+  const filterUser = (event) => {
+    let usersAsString=helperFilterUseAsString;
     const valueAsArray = event.target.value.toLowerCase().split(" ");
     valueAsArray.map((str) => {
       usersAsString = usersAsString.filter((userString) => {
@@ -73,3 +79,4 @@ const App = () => {
 };
 
 export default App;
+0

@@ -1,12 +1,13 @@
+/* eslint-disable */
 import React, { useState } from "react";
 import "../App.css";
 import TableHead from "./TableHead";
 
-// eslint-disable-next-line no-unused-vars
-const DataTable = (props, key) => {
-  // eslint-disable-next-line no-unused-vars,react/prop-types
-  const [user, setUsers] = useState(props.filteredNames);
+const DataTable = (props) => {
+let filteredNames=props.filteredNames;
+let setFilteredNames=props.setFilteredNames;
 
+  const [user, setUsers] = useState(filteredNames);
   const refName = React.createRef();
   const refSurName = React.createRef();
   const refAge = React.createRef();
@@ -23,7 +24,7 @@ const DataTable = (props, key) => {
         { name: rName, SurName: rSurName, age: rAge },
       ]);
       // eslint-disable-next-line react/prop-types
-      props.setFilteredNames((current) => [
+      setFilteredNames((current) => [
         ...current,
         { name: rName, SurName: rSurName, age: rAge },
       ]);
@@ -36,10 +37,10 @@ const DataTable = (props, key) => {
   return (
     <table id="myTable">
       <TableHead
-        filteredNames={props.filteredNames}
-        setFilteredNames={props.setFilteredNames}
+        filteredNames={filteredNames}
+        setFilteredNames={setFilteredNames}
       />
-      {props.filteredNames.map((user, index) => {
+      {filteredNames.map((user, index) => {
         return (
           <tr key={index}>
             <td>{user.name}</td>
